@@ -1,0 +1,57 @@
+*, ::before, ::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    background-image: url(../Assets/images/header.webp);
+    font-size: 42px;
+    padding: 2em .8em;
+}
+body
+{
+    background-image: url(../Assets/images/Portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+    font-size: 60px;
+    color: white;
+    margin: 300px auto 20px 50px;
+    font-family: monospace;
+    
+
+}
+section
+{
+    display: inline-block; 
+    border: .1px solid aquamarine;
+    margin: 300px auto 20px 400px;
+    font-family: monospace;
+    border-radius: 9%;
+}
+a
+{
+    font-size: 100px;
+    color: white;
+    text-decoration: none;
+}
+#skills
+{
+    background-image: url(../Assets/gif/Skills.gif);
+    background-size: cover;
+    
+}
+#services
+{
+    background-image: url(../Assets/images/web.webp);
+    background-size: cover;
+}
+#contact
+{
+    background-image: url(../Assets/gif/Contact.gif);
+    background-size: cover;
+}
