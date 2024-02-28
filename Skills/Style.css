@@ -9,10 +9,52 @@ body
     background-image: url(../Assets/images/Skills.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: monospace;
 }
 h1
 {
     font-size: 100px;
-    color: white;
+    color: aquamarine;
     font-family: monospace;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ul
+{   list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: rgba(255, 229, 151, 1);
+    position: relative;
+    top: 220px;
+}
+li
+{
+    width: 100%;
+    border-radius: 50px;
+    border: 3px solid rgba(219, 166, 244, 1);
+    background-color: transparent;
+    margin: 20px;
+    text-align: center;
+
+}
+div.photos
+{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div
+{
+    position: relative;
+    top: 250px;
+}
+img
+{
+    width: 300px;
+    height: 300px;
+    
 }

@@ -15,13 +15,13 @@ body
     background-image: url(../Assets/images/Portfolio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: monospace;
 }
 h1
 {
     font-size: 60px;
-    color: white;
+    color: antiquewhite;
     margin: 300px auto 20px 50px;
-    font-family: monospace;
     
 
 }
@@ -31,19 +31,20 @@ section
     border: .1px solid aquamarine;
     margin: 300px auto 20px 400px;
     font-family: monospace;
-    border-radius: 9%;
+    border-radius: 25px;
+    padding: 10px;
 }
 a
 {
     font-size: 100px;
-    color: white;
+    color: antiquewhite;
     text-decoration: none;
 }
 #skills
 {
     background-image: url(../Assets/gif/Skills.gif);
     background-size: cover;
-    
+
 }
 #services
 {
