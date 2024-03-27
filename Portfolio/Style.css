@@ -17,19 +17,37 @@ body
     background-size: cover;
     font-family: monospace;
 }
-h1
-{
-    font-size: 60px;
+h1 {
+    font-size: 4.8vw;
+    width: fit-content;
+    overflow: hidden;
+    text-transform: uppercase;
     color: antiquewhite;
-    margin: 300px auto 20px 50px;
+    font-size: 60px;
+    position: relative;
+    left: 35%;
+    top: 10rem;
+}
+h1 span {
+    display: inline-block;
+    width: fit-content;
+    overflow: hidden;
+    line-height: 2;
+}
+h1 span:first-child {
+    text-indent: 100%;
+    border-right: 1vw solid transparent;
     
-
+}
+h1 span:last-child {
+    text-indent: -100%;
+    /* border-left: .5vw solid #000; */
 }
 section
 {
     display: inline-block; 
     border: .1px solid aquamarine;
-    margin: 300px auto 20px 400px;
+    margin: 500px auto 20px 400px;
     font-family: monospace;
     border-radius: 25px;
     padding: 10px;
