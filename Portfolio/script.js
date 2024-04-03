@@ -1,4 +1,8 @@
 "use strict";
+
+
+
+
 const spans = document.querySelectorAll("h1 span");
 
 spans.forEach(async (sp)=>{

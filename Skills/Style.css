@@ -21,6 +21,7 @@ h1
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 ul
 {   list-style: none;
     display: flex;
@@ -30,6 +31,7 @@ ul
     position: relative;
     top: 220px;
 }
+
 li
 {
     width: 100%;
@@ -40,6 +42,7 @@ li
     text-align: center;
 
 }
+
 div.photos
 { 
     display: flex;
@@ -47,6 +50,7 @@ div.photos
     justify-content: center;
     flex-wrap: wrap;
 }
+
 div
 {
     position: relative;

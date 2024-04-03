@@ -4,12 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header
 {
     background-image: url(../Assets/images/header.webp);
     font-size: 42px;
     padding: 2em .8em;
 }
+
 body
 {
     background-image: url(../Assets/images/Portfolio.jpg);
@@ -52,6 +54,7 @@ section
     border-radius: 25px;
     padding: 10px;
 }
+
 a
 {
     font-size: 100px;
